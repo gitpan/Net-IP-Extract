@@ -1,0 +1,7 @@
+Changes
+Copying
+Makefile.PL
+MANIFEST
+README
+t/Extract.t
+lib/Net/IP/Extract.pm
