@@ -1,4 +1,7 @@
 Revision history for Perl extension Net::IP::Extract.
 
-0.01  Thu Mar 16 18:14:11 2006
+0.02 Jun 04 12:20:41 2006
+	- fix stupid error
+
+0.01 Mar 16 18:14:11 2006
 	- first release

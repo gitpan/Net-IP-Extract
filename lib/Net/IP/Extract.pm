@@ -33,7 +33,7 @@ Net::IP::Extract - Perl module to extract Ip Address from a document
 
 =head1 SYNOPSIS
 
-  use Parse::IpAddress;
+  use Net::IP::Extract;
 
   my $file = $ARGV[0];
 
@@ -42,7 +42,7 @@ Net::IP::Extract - Perl module to extract Ip Address from a document
     chomp (@file = <FILE>);
   close(FILE);
 
-  my @ip = Parse::IpAddress::parseip(@file);
+  my @ip = Net::IP::Extract::extract(@file);
 
   foreach (@ip){
     print "$_\n";
@@ -58,7 +58,7 @@ This module permit to extract Ip Address from a document, text, html pages etc..
 
 Returns an array with extracted Ip Address:
 
-  my @ip = Parse::IpAddress::parseip(@file);
+  my @ip = Net::IP::Extract::extract(@file);
 
 =head1 SEE ALSO
 
